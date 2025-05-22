@@ -14,25 +14,12 @@ const Works = () => {
       <span className='workTitle'>My Portofolio</span>
       <span className='workDesc'>bla bla bla bla bal abla badjsadas dsajdasda sadnsf afaf aa adafah hjfkjfas ja</span>
       <div className='works'>
-        <div className='work'>
-            <img src={Porto1} alt='' className='Porto1'/>
-        </div>
-        <div className='work'>
-            <img src={Porto2} alt='' className='Porto2'/>
-        </div>
-        <div className='work'>
-            <img src={Porto3} alt='' className='Porto3'/>
-        </div>
-        <div className='work'>
-            <img src={Porto4} alt='' className='Porto4'/>
-        </div>
-        <div className='work'>
-            <img src={Porto5} alt='' className='Porto5'/>
-        </div>
-        <div className='work'>
-            <img src={Porto6} alt='' className='Porto6'/>
-        </div>
-
+        <img src={Porto1} alt='' className='workImg'/>
+        <img src={Porto2} alt='' className='workImg'/>
+        <img src={Porto3} alt='' className='workImg'/>
+        <img src={Porto4} alt='' className='workImg'/>
+        <img src={Porto5} alt='' className='workImg'/>
+        <img src={Porto6} alt='' className='workImg'/>
       </div>
       <Link><button className='btn'>See More...</button></Link>
     </section>
