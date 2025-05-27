@@ -12,7 +12,7 @@ const Works = () => {
   return (
     <section id='works'>
       <span className='workTitle'>My Portofolio</span>
-      <span className='workDesc'>bla bla bla bla bal abla badjsadas dsajdasda sadnsf afaf aa adafah hjfkjfas ja</span>
+      <span className='workDesc'>Explore projects I’ve built — from admin dashboards and portfolio websites to e-commerce platforms and custom CMS solutions.</span>
       <div className='works'>
         <img src={Porto1} alt='' className='workImg'/>
         <img src={Porto2} alt='' className='workImg'/>
